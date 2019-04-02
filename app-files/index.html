@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="#" class="scene" data-id="0-library4">
+        <li class="text">Library4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="1-bacon_quad1">
+        <li class="text">Bacon_Quad1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="2-bacon_quad2">
+        <li class="text">Bacon_Quad2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="3-bacon_quad3">
+        <li class="text">Bacon_Quad3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="4-bacon_quad4">
+        <li class="text">Bacon_Quad4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="5-bacon_quad5">
+        <li class="text">Bacon_Quad5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="6-bacon_quad6">
+        <li class="text">Bacon_Quad6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="7-bacon_quad7">
+        <li class="text">Bacon_Quad7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="8-bacon_quad8">
+        <li class="text">Bacon_Quad8</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="9-bacon_quad9">
+        <li class="text">Bacon_Quad9</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="10-bacon_quad10">
+        <li class="text">Bacon_Quad10</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="11-bacon_quad11">
+        <li class="text">Bacon_Quad11</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="12-bacon_quad12">
+        <li class="text">Bacon_Quad12</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="13-bacon_quad13">
+        <li class="text">Bacon_Quad13</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="14-bacon_quadconnector">
+        <li class="text">Bacon_QuadConnector</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="15-bacon_quad14">
+        <li class="text">Bacon_Quad14</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="16-bacon_quad15">
+        <li class="text">Bacon_Quad15</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="17-bacon_quad16">
+        <li class="text">Bacon_Quad16</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="18-bacon_quad17">
+        <li class="text">Bacon_Quad17</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="19-bacon_quad18">
+        <li class="text">Bacon_Quad18</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="20-bacon_quad19">
+        <li class="text">Bacon_Quad19</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="21-international_quad1">
+        <li class="text">International_Quad1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="22-international_quad2">
+        <li class="text">International_Quad2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="23-international_quad3">
+        <li class="text">International_Quad3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="24-international_quad4">
+        <li class="text">International_Quad4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="25-international_quad5">
+        <li class="text">International_Quad5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="26-international_quad6">
+        <li class="text">International_Quad6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="27-international_quad7">
+        <li class="text">International_Quad7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="28-international_quad8">
+        <li class="text">International_Quad8</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="29-international_quad9">
+        <li class="text">International_Quad9</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="30-international_quad10">
+        <li class="text">International_Quad10</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="31-international_quad11">
+        <li class="text">International_Quad11</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="32-international_quad12">
+        <li class="text">International_Quad12</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="33-international_quad13">
+        <li class="text">International_Quad13</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="34-international_quad14">
+        <li class="text">International_Quad14</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="35-international_quad15">
+        <li class="text">International_Quad15</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="36-international_quad16">
+        <li class="text">International_Quad16</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="37-international_quad17">
+        <li class="text">International_Quad17</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="38-international_quad20">
+        <li class="text">International_Quad20</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="39-international_quad21">
+        <li class="text">International_Quad21</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="40-international_quad22">
+        <li class="text">International_Quad22</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="41-international_quad23">
+        <li class="text">International_Quad23</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="42-international_quad24">
+        <li class="text">International_Quad24</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="43-international_quad26">
+        <li class="text">International_Quad26</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="44-international_quad27">
+        <li class="text">International_Quad27</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="45-international_quad28">
+        <li class="text">International_Quad28</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="46-library1">
+        <li class="text">Library1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="47-library2">
+        <li class="text">Library2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="48-library3">
+        <li class="text">Library3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="49-library5">
+        <li class="text">Library5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="50-library6">
+        <li class="text">Library6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="51-library7">
+        <li class="text">Library7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="52-library11">
+        <li class="text">Library11</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="53-library12">
+        <li class="text">Library12</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="54-library13">
+        <li class="text">Library13</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="55-library19">
+        <li class="text">Library19</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="56-library14">
+        <li class="text">Library14</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="57-library15">
+        <li class="text">Library15</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="58-library20">
+        <li class="text">Library20</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="59-library21">
+        <li class="text">Library21</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="60-library22">
+        <li class="text">Library22</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="61-library23">
+        <li class="text">Library23</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="62-library24">
+        <li class="text">Library24</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="63-salazar1">
+        <li class="text">Salazar1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="64-salazar2">
+        <li class="text">Salazar2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="65-salazar3">
+        <li class="text">Salazar3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="66-salazar4">
+        <li class="text">Salazar4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="67-salazar5">
+        <li class="text">Salazar5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="68-salazar6">
+        <li class="text">Salazar6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="69-salazar7">
+        <li class="text">Salazar7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="70-salazar8">
+        <li class="text">Salazar8</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="71-salazar9">
+        <li class="text">Salazar9</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="72-salazarnorth2">
+        <li class="text">SalazarNorth2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="73-salazarnorth3">
+        <li class="text">SalazarNorth3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="74-stevenson1">
+        <li class="text">Stevenson1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="75-stevenson2">
+        <li class="text">Stevenson2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="76-stevenson3">
+        <li class="text">Stevenson3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="77-stevenson4">
+        <li class="text">Stevenson4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="78-stevenson5">
+        <li class="text">Stevenson5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="79-stevenson6">
+        <li class="text">Stevenson6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="80-winebuilding1">
+        <li class="text">WineBuilding1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="81-winebuilding2">
+        <li class="text">WineBuilding2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="82-ives1">
+        <li class="text">Ives1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="83-ives2">
+        <li class="text">Ives2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="84-ives3">
+        <li class="text">Ives3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="85-ives4">
+        <li class="text">Ives4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="86-ives5">
+        <li class="text">Ives5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="87-ives6">
+        <li class="text">Ives6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="88-ives7">
+        <li class="text">Ives7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="89-ivesquad1">
+        <li class="text">IvesQuad1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="90-ivesquad2">
+        <li class="text">IvesQuad2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="91-ivesquad3">
+        <li class="text">IvesQuad3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="92-ivesquad4">
+        <li class="text">IvesQuad4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="93-ivesquad5">
+        <li class="text">IvesQuad5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="94-ivesquad6">
+        <li class="text">IvesQuad6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="95-ivesquad7">
+        <li class="text">IvesQuad7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="96-ivesquad9">
+        <li class="text">IvesQuad9</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="97-ivesquad10">
+        <li class="text">IvesQuad10</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="98-ivesquad11">
+        <li class="text">IvesQuad11</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="99-ivesquad12">
+        <li class="text">IvesQuad12</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="100-ivesquad13">
+        <li class="text">IvesQuad13</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="101-ivesquad14">
+        <li class="text">IvesQuad14</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="102-ivesquad18">
+        <li class="text">IvesQuad18</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="103-ivesquad19">
+        <li class="text">IvesQuad19</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="104-ivesquad20">
+        <li class="text">IvesQuad20</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="105-ivesquad21">
+        <li class="text">IvesQuad21</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="106-ivesquad22">
+        <li class="text">IvesQuad22</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="107-ivesquad23">
+        <li class="text">IvesQuad23</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="108-ivesquad24">
+        <li class="text">IvesQuad24</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="109-ivesquad25">
+        <li class="text">IvesQuad25</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="110-ivesquad26">
+        <li class="text">IvesQuad26</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="111-ivesquad27">
+        <li class="text">IvesQuad27</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="112-ivesquad28">
+        <li class="text">IvesQuad28</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="113-ivesquad29">
+        <li class="text">IvesQuad29</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="114-ivesquad30">
+        <li class="text">IvesQuad30</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="115-library10">
+        <li class="text">Library10</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="116-library16">
+        <li class="text">Library16</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="117-library18">
+        <li class="text">Library18</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="118-southsalazar1">
+        <li class="text">SouthSalazar1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="119-southsalazar2">
+        <li class="text">SouthSalazar2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="120-southsalazar3">
+        <li class="text">SouthSalazar3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="121-southsalazar4">
+        <li class="text">SouthSalazar4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="122-southsalazar5">
+        <li class="text">SouthSalazar5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="123-southsalazar6">
+        <li class="text">SouthSalazar6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="124-southsalazar7">
+        <li class="text">SouthSalazar7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="125-southsalazar8">
+        <li class="text">SouthSalazar8</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="126-southsalazar10">
+        <li class="text">SouthSalazar10</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="127-stc_rec1">
+        <li class="text">StC_Rec1</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="128-stc_rec2">
+        <li class="text">StC_Rec2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="129-stc_rec3">
+        <li class="text">StC_Rec3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="130-stc_rec4">
+        <li class="text">StC_Rec4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="131-stc_rec5">
+        <li class="text">StC_Rec5</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="132-stc_rec6">
+        <li class="text">StC_Rec6</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="133-stc_rec7">
+        <li class="text">StC_Rec7</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="134-stc_rec8">
+        <li class="text">StC_Rec8</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="135-stc_rec9">
+        <li class="text">StC_Rec9</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="136-stc_rec10">
+        <li class="text">StC_Rec10</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="137-veteransmemorial">
+        <li class="text">VeteransMemorial</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
